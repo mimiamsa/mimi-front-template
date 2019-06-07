@@ -1,0 +1,43 @@
+.article-section {
+  padding: 3.5rem 0 4rem;
+}
+
+.article-section section {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section .section-title {
+  width: 100%;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.article {
+  width: 31%;
+}
+
+.article .img {
+  height: 220px;
+  width: 100%;
+  margin-bottom: 1rem;
+  background: #FFD1D9;
+}
+
+.article-date {
+  color: #FF2A51;
+  font-size: .8rem;
+  font-weight: 500;
+  margin-bottom: .5rem;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
+}
+
+.article-txt {
+  color:#92929C;
+}

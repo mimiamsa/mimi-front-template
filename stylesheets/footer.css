@@ -1,0 +1,17 @@
+.footer-section {
+  background: #1E1E26;
+  color:white;
+  padding: 1rem 0 2rem;
+}
+
+.footer {
+justify-content: space-between;
+}
+
+.footer-section p{
+  font-weight: bold;
+} 
+
+.footer-section{
+  width: 22%;
+}

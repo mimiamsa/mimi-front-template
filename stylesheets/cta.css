@@ -1,0 +1,38 @@
+.CTA-section {
+  background: #1E1E26;
+  color: white;
+}
+
+.CTA {
+  width: 100%;
+}
+
+
+.CTA-txt {
+  padding: 0 1.5rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.CTA-txt > * {
+  margin-bottom: 1rem;
+}
+
+
+.CTA-txt .title {
+  font-size: 2.5rem;
+}
+
+
+.CTA-txt .txt {
+  /* font-size: 2.5rem; */
+}
+
+
+.CTA .img {
+  width: 50%;
+  height: 500px;
+  background: #FFD1D9;
+}

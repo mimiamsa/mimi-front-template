@@ -1,0 +1,19 @@
+.reinsurance-section {
+  flex-direction: row;
+  margin: 3rem 0 3rem;
+}
+.reinsurance {
+  justify-content: space-between;
+}
+.reinsurance-item{
+  width: 22%;
+}
+
+.reinsurance-item>*{
+  margin-bottom: 1rem;
+}
+
+
+.reinsurance-icon {
+  font-size: 2rem;
+}

@@ -1,0 +1,87 @@
+@import "./fonts.css";
+@import "./header.css";
+@import "./article.css";
+@import "./footer.css";
+@import "./cta.css";
+@import "./reinsurance.css";
+
+body {
+  font-family: 'Theinhardt', sans-serif;
+  color: #1E1E26;
+  font-size: 16px;
+}
+
+/* TITLE STYLES */
+h1,
+h2 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h3.subtitle {
+  color: #B1B1BC;
+}
+
+
+p {
+  line-height: 1.25;
+}
+/* CONTAINER STYLE */
+
+.big-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.wrapper {
+  width: 90%;
+}
+
+/* BUTTON STYLE */
+
+button {
+  cursor: pointer;
+}
+
+/* Arrow button */
+.arrow-button {
+  display: flex;
+  color: #FF2A51;
+  font-size: 1rem;
+  transition: all .2s ease-in;
+
+}
+
+.arrow-button:hover {
+  color: rgb(179, 0, 39);
+}
+
+/* button */
+.btn-primary {
+  font-size: 0.9rem;
+  padding:.6rem 1.8rem;
+  font-weight: 300;
+  align-self: flex-start
+}
+
+.btn-primary.dark {
+  background: #1E1E26;
+  color: white;
+
+}
+
+.btn-primary.white{
+  background: white ;
+  color:#1E1E26;
+}
+
+
+/* POSITIONNING STYLE */
+.flexed-item {
+  display: flex;
+}
